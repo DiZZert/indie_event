@@ -1,0 +1,36 @@
+body {
+  background-color: #00FF00;
+}
+
+.genre_icons > div{
+  margin:1pt;
+  display:inline-block;
+  /* vertical-align: middle; */
+}
+
+.genreBar {
+  margin-left: 31.4%;
+  margin-top: 3.4%;
+}
+
+#genreName {
+  position: absolute;
+  top: 71.5%;
+  left: 60.5%;
+  margin-right: -40%;
+  transform: translate(-50%);
+  color: white;
+  font-size: 24;
+}
+
+.gamesList {
+  position: absolute;
+  text-align: center;
+  top: 75%;
+  left: 60.5%;
+  margin-right: -40%;
+  transform: translate(-50%);
+  color: white;
+  font-size: 18;
+  z-index: 1;
+}
