@@ -44,7 +44,9 @@
             switch(e.which) {
               case 1:
                 if (jsonGenres[i].name == "random") {
-                  $("#genreName").text(jsonGenres[getRandom()].name);
+                  let randomGenre = getRandom();
+                  $("#genreName").text(jsonGenres[randomGenre].name);
+                  doGamesList(randomGenre);
                 } else {
                   $("#genreName").text(jsonGenres[i].name);
                   doGamesList(i);
