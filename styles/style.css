@@ -14,23 +14,33 @@ body {
 }
 
 #genreName {
+  font-family: myriadcad;
+  text-transform: uppercase;
   position: absolute;
-  top: 71.5%;
+  top: 71.6%;
   left: 60.5%;
   margin-right: -40%;
   transform: translate(-50%);
-  color: white;
-  font-size: 24;
+  color: #e9cb97;
+  font-size: 36;
 }
 
 .gamesList {
+  font-family: myriadcad;
+  text-transform: uppercase;
+  line-height: 1.8;
   position: absolute;
   text-align: center;
-  top: 75%;
+  top: 77%;
   left: 60.5%;
   margin-right: -40%;
   transform: translate(-50%);
-  color: white;
+  color: #e9cb97;
   font-size: 18;
   z-index: 1;
+}
+
+@font-face {
+    font-family: myriadcad;
+    src: url(../assets/fonts/myriadcad.otf);
 }
