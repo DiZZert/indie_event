@@ -9,7 +9,7 @@
      '{"name": "метроидвания","pic": "metroidv", "games": ["Ori and the Will of the Wisps", "Ender Lilies: Quietus of the Knights", "Fearmonium", "F.I.S.T.: Forged In Shadow Torch", "Valfaris"]},'+
      '{"name": "платформер","pic": "platform", "games": ["Child of Light", "Little Nightmares 2", "Pumpkin Jack", "Psychonauts", "A Story About My Uncle"]},'+
      '{"name": "роглайк","pic": "roguelike", "games": ["Dead Cells", "Inscryption", "Hades", "BPM: Bullets Per Minute", "Ziggurat 2"]},'+
-      '{"name": "мемы","pic": "meme", "games": ["Mercury Man", "Montaro", "Adventures of pepeL", "I Hate this Game", "Helltaker"]},'+
+     '{"name": "мемы","pic": "meme", "games": ["Mercury Man", "Montaro", "Adventures of pepeL", "I Hate this Game", "Helltaker"]},'+
      '{"name": "шутер","pic": "shooter", "games": ["Bright Memory: Infinite", "SUPERHOT", "Shadow Warrior 2", "Serious Sam: The First Encounter", "Black Mesa"]},'+
      '{"name": "интерактивные истории","pic": "interaktiv", "games": ["Her Story", "Death and Taxes", "Road 96", "Not For Broadcast", "Late Shift"]},'+
      '{"name": "Хайден Гемы","pic": "hiddengem", "games": ["In Sound Mind", "Inertial Drift", "A Juggler’s Tale", "Bright Lights of Svetlov", "Sludge Life"]},'+
@@ -23,6 +23,12 @@
      var genresActiveArray = [];
 
      var jsonGenres = jQuery.parseJSON(genresArray);
+
+     function playSound(name) {
+       var soundFile = document.createElement("audio");
+       soundFile.src = "assets/sounds/" + name + ".mp3";
+       soundFile.play();
+    }
 
      function doGamesList(data) {
        $('.gamesList').empty();
@@ -70,6 +76,7 @@
                 console.log(jsonGenres[i]);
                 console.log(genresActiveArray);
                 $( '.icon' + i ).html( `<span> <img src="assets/icons/` + jsonGenres[i].pic + `Aktiv.png" width="66" height="76"> </span>` )
+                playSound("activate");
               break;
               case 3:
                 document.oncontextmenu = function() {return false;};
@@ -82,6 +89,7 @@
                 }
                 console.log(genresActiveArray);
                 $( '.icon' + i ).html( `<span> <img src="assets/icons/` + jsonGenres[i].pic + `Neaktiv.png" width="66" height="76"> </span>` )
+                playSound("deactivate");
               break;
             }
             return true;
