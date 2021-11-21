@@ -85,7 +85,7 @@
               break;
             }
             return true;
-});
+          });
        }
      }
 
