@@ -4,20 +4,20 @@
      '[{"name": "долгие","pic": "dolgie", "games": ["Subnautica", "Desperados III", "Disco Elysium", "Pathologic 2", "Hollow Knight"]},'+
      '{"name": "глубокие","pic": "glubokie",  "games": ["The Vanishing of Ethan Carter", "What Remains of Edith Finch", "The Red Strings Club", "The Beginner’s Guide", "OneShot"]},'+
      '{"name": "хоррор","pic": "horror", "games": ["Summer of 58", "Yuppie Psycho", "Among the Sleep", "Detention", "Happy Game"]},'+
-     '{"name": "экшн игры","pic": "random", "games": ["Death’s door", "Elderborn", "Alien Shooter", "Ape Out", "Chernobylite"]},'+ //нет иконок
+     '{"name": "экшн игры","pic": "action", "games": ["Death’s door", "Elderborn", "Alien Shooter", "Ape Out", "Chernobylite"]},'+
      '{"name": "культовые","pic": "kultovie", "games": ["Papers, Please", "Undertale", "The Stanley Parable", "Brothers - A Tale of Two Sons", "Braid"]},'+
      '{"name": "метроидвания","pic": "metroidv", "games": ["Ori and the Will of the Wisps", "Ender Lilies: Quietus of the Knights", "Fearmonium", "F.I.S.T.: Forged In Shadow Torch", "Valfaris"]},'+
      '{"name": "платформер","pic": "platform", "games": ["Child of Light", "Little Nightmares 2", "Pumpkin Jack", "Psychonauts", "A Story About My Uncle"]},'+
-     '{"name": "приключения","pic": "random", "games": ["Tails of Iron", "Grimm’s Hollow", "Sally Face", "The Banner Saga", "LISA: The Painfull"]},'+ //нет иконок
      '{"name": "роглайк","pic": "roguelike", "games": ["Dead Cells", "Inscryption", "Hades", "BPM: Bullets Per Minute", "Ziggurat 2"]},'+
+      '{"name": "мемы","pic": "meme", "games": ["Mercury Man", "Montaro", "Adventures of pepeL", "I Hate this Game", "Helltaker"]},'+
      '{"name": "шутер","pic": "shooter", "games": ["Bright Memory: Infinite", "SUPERHOT", "Shadow Warrior 2", "Serious Sam: The First Encounter", "Black Mesa"]},'+
-     '{"name": "интерактивные истории","pic": "random", "games": ["Her Story", "Death and Taxes", "Road 96", "Not For Broadcast", "Late Shift"]},'+ //нет иконок
-     '{"name": "Хайден Гемы","pic": "random", "games": ["In Sound Mind", "Inertial Drift", "A Juggler’s Tale", "Bright Lights of Svetlov", "Sludge Life"]},'+ //нет иконок
+     '{"name": "интерактивные истории","pic": "interaktiv", "games": ["Her Story", "Death and Taxes", "Road 96", "Not For Broadcast", "Late Shift"]},'+
+     '{"name": "Хайден Гемы","pic": "hiddengem", "games": ["In Sound Mind", "Inertial Drift", "A Juggler’s Tale", "Bright Lights of Svetlov", "Sludge Life"]},'+
      '{"name": "юмор","pic": "jumor", "games": ["Protocol", "Untitled Goose Game", "Pony Island", "Breathedge", "There Is No Game: Wrong Dimension"]},'+
-     '{"name": "мемы","pic": "meme", "games": ["Mercury Man", "Montaro", "Adventures of pepeL", "I Hate this Game", "Helltaker"]},'+
      '{"name": "АА инди","pic": "aaindi", "games": ["Life is Strange", "KENA: Bridge of Spirits", "Outlast", "Hellblade: Senua’s Sacrifice", "Terminator: Resistance"]},'+
+     '{"name": "приключения","pic": "prikl", "games": ["Tails of Iron", "Grimm’s Hollow", "Sally Face", "The Banner Saga", "LISA: The Painfull"]},'+
      '{"name": "саундтрек","pic": "soundtrack", "games": ["Furi", "Ruiner", "Everhood", "Bastion", "198X"]},'+
-     '{"name": "квесты","pic": "random", "games": ["Rusty Lake: Roots", "Grim Fandango", "Superliminal", "Sherlock Holmes: Crimes and Punishments", "Forgotten City"]},'+ //нет иконок
+     '{"name": "квесты","pic": "quest", "games": ["Rusty Lake: Roots", "Grim Fandango", "Superliminal", "Sherlock Holmes: Crimes and Punishments", "Forgotten City"]},'+
      '{"name": "random","pic": "random"}]';
 
      var genresActiveArray = [];
