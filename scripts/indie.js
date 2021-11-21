@@ -62,6 +62,7 @@
             switch(e.which) {
               case 1:
                 if (jsonGenres[i].name == "random") {
+                  clickedText = false;
                   console.log(genresActiveArray);
                   let randomGenre = getRandom();
                   $("#genreName").text(genresActiveArray[randomGenre].name);
@@ -98,6 +99,7 @@
      }
 
      var greyArray = [];
+     var clickedText = new Boolean(false);
 
      function positionsList() {
        greyArray = [];
@@ -111,10 +113,15 @@
      }
 
      $("#genreName").click(function() {
-       positionsList();
-       for (var i = 0; i < 4; i++) {
-         makeGrey(i);
+       if (clickedText == false) {
+         positionsList();
+         for (var i = 0; i < 4; i++) {
+           makeGrey(i);
+         }
+       } else {
+         console.log("не дрочи надпись блять");
        }
+       clickedText = true;
      });
 
      function makeGrey(i){
