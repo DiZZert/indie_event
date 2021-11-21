@@ -1,5 +1,6 @@
 body {
   background-color: #00FF00;
+  /* background-color: #502a28; */
 }
 
 .genre_icons > div{
@@ -38,6 +39,15 @@ body {
   color: #e9cb97;
   font-size: 18;
   z-index: 1;
+}
+
+.progressText {
+  position: absolute;
+  font-family: myriadcad;
+  color: #e9cb97;
+  margin-left: 84.1%;
+  margin-top: 18.5%;
+  font-size: 14;
 }
 
 @font-face {
