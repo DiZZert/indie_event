@@ -34,7 +34,7 @@
        $('.gamesList').empty();
 
       for ( let i = 0; i < jsonGenres[data].games.length; i++ ) {
-         $( '<div>', {class: 'games' + i} )
+         $( '<div>', {class: 'game_' + i} )
          .html( `<span>` + jsonGenres[data].games[i] + `</span>` ).appendTo( $( '.gamesList' ) )
        }
      }
@@ -95,6 +95,33 @@
             return true;
           });
        }
+     }
+
+     var greyArray = [];
+
+     function positionsList() {
+       greyArray = [];
+       for (var i = 0; i < 5; i++) {
+         greyArray.push(i);
+       }
+
+       console.log(greyArray);
+       greyArray.splice(Math.floor((Math.random() * (4 - 0) + 0)), 1);
+       greyArray.sort(() => Math.random() - 0.5);
+     }
+
+     $("#genreName").click(function() {
+       positionsList();
+       for (var i = 0; i < 4; i++) {
+         makeGrey(i);
+       }
+     });
+
+     function makeGrey(i){
+       setTimeout(function() {
+         $('.game_' + greyArray[i]).addClass('greyPosition');
+         playSound("activate");
+       }, 2000 * i);
      }
 
      doGenreList(jsonGenres);
