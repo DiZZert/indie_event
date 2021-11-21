@@ -66,8 +66,9 @@
                 if (jsonGenres[i].name == "random") {
                   console.log(genresActiveArray);
                   let randomGenre = getRandom();
+                  console.log(randomGenre);
                   $("#genreName").text(genresActiveArray[randomGenre].name);
-                  doGamesList(randomGenre);
+                  doGamesList($.inArray(genresActiveArray[randomGenre], jsonGenres));
                 } else {
                   $("#genreName").text(jsonGenres[i].name);
                   doGamesList(i);
