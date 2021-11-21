@@ -123,7 +123,7 @@
        setTimeout(function() {
          $('.game_' + greyArray[i]).addClass('greyPosition');
          playSound("activate");
-       }, ( (i+1) *1000) * i);
+       }, ( (i+1) *1500) * i);
      }
 
      doGenreList(jsonGenres);
