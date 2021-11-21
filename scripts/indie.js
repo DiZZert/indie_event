@@ -67,12 +67,19 @@
               break;
               case 2:
                 genresActiveArray.push(jsonGenres[i]);
+                console.log(jsonGenres[i]);
                 console.log(genresActiveArray);
                 $( '.icon' + i ).html( `<span> <img src="assets/icons/` + jsonGenres[i].pic + `Aktiv.png" width="66" height="76"> </span>` )
               break;
               case 3:
                 document.oncontextmenu = function() {return false;};
-                genresActiveArray.splice($.inArray(genresActiveArray[i], genresActiveArray), 1);
+                console.log(jsonGenres[i]);
+                if ($.inArray(jsonGenres[i], genresActiveArray) != -1 ) {
+                  console.log("удаляем из массива");
+                  genresActiveArray.splice($.inArray(jsonGenres[i], genresActiveArray), 1);
+                } else {
+                  console.log("нет в массиве");
+                }
                 console.log(genresActiveArray);
                 $( '.icon' + i ).html( `<span> <img src="assets/icons/` + jsonGenres[i].pic + `Neaktiv.png" width="66" height="76"> </span>` )
               break;
