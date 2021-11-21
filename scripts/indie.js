@@ -52,6 +52,8 @@
        }
      }
 
+     var clickedText = new Boolean(false);
+
      function doGenreList(data) {
        const $genreIconsClass = $( '.genre_icons' );
 
@@ -62,7 +64,6 @@
             switch(e.which) {
               case 1:
                 if (jsonGenres[i].name == "random") {
-                  clickedText = false;
                   console.log(genresActiveArray);
                   let randomGenre = getRandom();
                   $("#genreName").text(genresActiveArray[randomGenre].name);
@@ -99,7 +100,6 @@
      }
 
      var greyArray = [];
-     var clickedText = new Boolean(false);
 
      function positionsList() {
        greyArray = [];
@@ -113,22 +113,17 @@
      }
 
      $("#genreName").click(function() {
-       if (clickedText == false) {
          positionsList();
          for (var i = 0; i < 4; i++) {
            makeGrey(i);
          }
-       } else {
-         console.log("не дрочи надпись блять");
-       }
-       clickedText = true;
      });
 
      function makeGrey(i){
        setTimeout(function() {
          $('.game_' + greyArray[i]).addClass('greyPosition');
          playSound("activate");
-       }, 2000 * i);
+       }, (i*1000) * i);
      }
 
      doGenreList(jsonGenres);
