@@ -64,9 +64,9 @@
             switch(e.which) {
               case 1:
                 if (jsonGenres[i].name == "random") {
-                  console.log(genresActiveArray);
+                  // console.log(genresActiveArray);
                   let randomGenre = getRandom();
-                  console.log(randomGenre);
+                  // console.log(randomGenre);
                   $("#genreName").text(genresActiveArray[randomGenre].name);
                   doGamesList($.inArray(genresActiveArray[randomGenre], jsonGenres));
                 } else {
@@ -75,6 +75,7 @@
                 }
               break;
               case 2:
+                $('.icon' + i).addClass('glowEffect');
                 genresActiveArray.push(jsonGenres[i]);
                 console.log(jsonGenres[i]);
                 console.log(genresActiveArray);
@@ -82,6 +83,7 @@
                 playSound("activate");
               break;
               case 3:
+                $('.icon' + i).removeClass('glowEffect');
                 document.oncontextmenu = function() {return false;};
                 console.log(jsonGenres[i]);
                 if ($.inArray(jsonGenres[i], genresActiveArray) != -1 ) {
