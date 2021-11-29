@@ -1,10 +1,10 @@
 ( function( $ ) {
 
     var genresArray =
-     '[{"name": "долгие","pic": "dolgie", "games": ["Subnautica", "Desperados III", "Disco Elysium", "Pathologic 2", "Hollow Knight"]},'+
-     '{"name": "глубокие","pic": "glubokie",  "games": ["The Vanishing of Ethan Carter", "What Remains of Edith Finch", "The Red Strings Club", "The Beginner’s Guide", "OneShot"]},'+
-     '{"name": "хоррор","pic": "horror", "games": ["Summer of 58", "Yuppie Psycho", "Among the Sleep", "Detention", "Happy Game"]},'+
-     '{"name": "экшн игры","pic": "action", "games": ["Death’s door", "Elderborn", "Alien Shooter", "Ape Out", "Chernobylite"]},'+
+     '[{"name": "долгие","pic": "dolgie", "games": ["Subnautica", "Desperados III", "Chernobylite", "Pathologic 2", "Hollow Knight"]},'+
+     '{"name": "глубокие","pic": "glubokie",  "games": ["The Vanishing of Ethan Carter", "What Remains of Edith Finch", "The Red Strings Club", "The Beginner’s Guide", "Finding Paradise"]},'+
+     '{"name": "хоррор","pic": "horror", "games": ["Summer of 58", "Yuppie Psycho", "Among the Sleep", "Detention", "Death Park 2"]},'+
+     '{"name": "экшн игры","pic": "action", "games": ["Death’s door", "Elderborn", "Alien Shooter", "Ape Out", "Mortal Shell"]},'+
      '{"name": "культовые","pic": "kultovie", "games": ["Papers, Please", "Undertale", "The Stanley Parable", "Brothers - A Tale of Two Sons", "Braid"]},'+
      '{"name": "метроидвания","pic": "metroidv", "games": ["Ori and the Will of the Wisps", "Ender Lilies: Quietus of the Knights", "Fearmonium", "F.I.S.T.: Forged In Shadow Torch", "Valfaris"]},'+
      '{"name": "платформер","pic": "platform", "games": ["Child of Light", "Little Nightmares 2", "Pumpkin Jack", "Psychonauts", "A Story About My Uncle"]},'+
@@ -14,10 +14,10 @@
      '{"name": "интерактивные истории","pic": "interaktiv", "games": ["Her Story", "Death and Taxes", "Road 96", "Not For Broadcast", "Late Shift"]},'+
      '{"name": "Хайден Гемы","pic": "hiddengem", "games": ["In Sound Mind", "Inertial Drift", "A Juggler’s Tale", "Bright Lights of Svetlov", "Sludge Life"]},'+
      '{"name": "юмор","pic": "jumor", "games": ["Protocol", "Untitled Goose Game", "Pony Island", "Breathedge", "There Is No Game: Wrong Dimension"]},'+
-     '{"name": "АА инди","pic": "aaindi", "games": ["Life is Strange", "KENA: Bridge of Spirits", "Outlast", "Hellblade: Senua’s Sacrifice", "Terminator: Resistance"]},'+
+     '{"name": "АА инди","pic": "aaindi", "games": ["Life is Strange", "KENA: Bridge of Spirits", "Hitman 3", "Hellblade: Senua’s Sacrifice", "Terminator: Resistance"]},'+
      '{"name": "приключения","pic": "prikl", "games": ["Tails of Iron", "Grimm’s Hollow", "Sally Face", "The Banner Saga", "LISA: The Painfull"]},'+
      '{"name": "саундтрек","pic": "soundtrack", "games": ["Furi", "Ruiner", "Everhood", "Bastion", "198X"]},'+
-     '{"name": "квесты","pic": "quest", "games": ["Rusty Lake: Roots", "Grim Fandango", "Superliminal", "Sherlock Holmes: Crimes and Punishments", "Forgotten City"]},'+
+     '{"name": "квесты","pic": "quest", "games": ["Rusty Lake: Roots", "Creepy Tale 2", "Superliminal", "Sherlock Holmes: Crimes and Punishments", "Forgotten City"]},'+
      '{"name": "random","pic": "random"}]';
 
      var genresActiveArray = [];
