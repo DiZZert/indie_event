@@ -65,3 +65,28 @@ body {
   /* box-shadow:0 0 10px #FFFFFF; */
   filter: drop-shadow(0 -5px 5px #e9cb97);
 }
+
+.spin:after {
+  content:"";
+  animation: spin 0.9s linear 5;
+}
+@keyframes spin {
+  0% { content:"долгие"; }
+  5.56% { content:"глубокие"; }
+  11.12% { content:"хоррор"; }
+  16.68% { content:"экшн игры"; }
+  22.24% { content:"культовые"; }
+  27.8% { content:"метроидвания"; }
+  33.36% { content:"платформер"; }
+  38.92% { content:"роглайк"; }
+  44.48% { content:"мемы"; }
+  50.04% { content:"шутер"; }
+  55.6% { content:"интерактивные истории"; }
+  61.16% { content:"Хайден Гемы"; }
+  66.72% { content:"юмор"; }
+  72.28% { content:"АА инди"; }
+  77.84% { content:"приключения"; }
+  83.4% { content:"саундтрек"; }
+  88.96% { content:"квесты"; }
+
+}

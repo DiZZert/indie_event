@@ -67,9 +67,15 @@
                   $( '.genre_icons > div' ).removeClass('glowEffect');
                   let randomGenre = getRandom();
                   let fromArrayIndex = $.inArray(genresActiveArray[randomGenre], jsonGenres);
-                  $("#genreName").text(genresActiveArray[randomGenre].name);
-                  doGamesList(fromArrayIndex);
-                  $('.icon' + fromArrayIndex).addClass('glowEffect');
+                  
+                  $("#genreName").addClass('spin');
+                  setTimeout(function(){
+                    $("#genreName").removeClass('spin');
+                    $("#genreName").text(genresActiveArray[randomGenre].name);
+                    $('.icon' + fromArrayIndex).addClass('glowEffect');
+                    doGamesList(fromArrayIndex);
+                  }, 4000);
+
                 } else {
                   $("#genreName").text(jsonGenres[i].name);
                   doGamesList(i);
