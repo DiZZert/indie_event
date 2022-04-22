@@ -1,7 +1,7 @@
 ( function( $ ) {
 
     var genresArray =
-     '[{"name": "долгие","pic": "dolgie", "games": ["Subnautica", "Desperados III", "Kingdom Come Deliverance", "Hollow Knight", "Durkest Dungeon", "Loop Hero"]},'+
+     '[{"name": "долгие","pic": "dolgie", "games": ["Subnautica", "Desperados III", "Kingdom Come Deliverance", "Hollow Knight", "Darkest Dungeon", "Loop Hero"]},'+
      '{"name": "глубокие","pic": "glubokie",  "games": ["The Vanishing of Ethan Carter", "Night in the Woods", "The Red Strings Club", "The Beginner`s Guide", "Death and Taxes", "LISA: The Painfull"]},'+
      '{"name": "хоррор","pic": "horror", "games": ["At Dead Of Night", "Among the Sleep", "Detention", "Outlast", "The Witch`s House MV", "Summer of 58"]},'+
      '{"name": "экшн игры","pic": "action", "games": ["Death’s door", "Tunic", "Alien Shooter", "Ape Out", "Nobody Saves the World", "Shank"]},'+
