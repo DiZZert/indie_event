@@ -8,7 +8,7 @@
      '{"name": "культовые","pic": "kultovie", "games": ["Papers, Please", "Undertale", "The Stanley Parable", "Brothers - A Tale of Two Sons", "Braid", "Harvester"]},'+
      '{"name": "метроидвания","pic": "metroidv", "games": ["Supraland Six Inches Under", "Ender Lilies: Quietus of the Knights", "Guacamelee! (STCE)", "The Messenger", "Axiom Verge", "Rogue Legacy 2"]},'+
      '{"name": "платформер","pic": "platform", "games": ["BattleBlock Theater", "Little Nightmares 2", "Guns, Gore and Cannoli 2", "Psychonauts", "Celeste", "Vector"]},'+
-     '{"name": "роглайк","pic": "roguelike", "games": ["Dead Cells", "Inscryption", "Hades", "Enter the Gungeon", "Slay the Spire", "Vampire Survivors"]},'+
+     '{"name": "роглайк","pic": "roguelike", "games": ["Dead Cells", "Inscryption", "Hades", "Enter the Gungeon", "Slay the Spire", "Binding of Isaac: Repentance"]},'+
      '{"name": "мемы","pic": "meme", "games": ["Pony Island", "The Hex", "Adventures of pepeL", "I Hate this Game", "Helltaker", "Montaro"]},'+
      '{"name": "шутер","pic": "shooter", "games": ["Bright Memory: Infinite", "SUPERHOT", "Terminator: Resistance", "Serious Sam: Siberian Mayhem", "Black Mesa", "Them and Us"]},'+
      '{"name": "интерактивные истории","pic": "interaktiv", "games": ["Her Story", "Tiny Bunny", "Do Not Feed the Monkeys", "Not For Broadcast", "Late Shift", "Who Pressed Mute on Uncle Marcus?"]},'+
