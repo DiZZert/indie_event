@@ -2,7 +2,7 @@
 
     var genresArray =
      '[{"name": "долгие","pic": "dolgie", "games": ["Subnautica", "Desperados III", "Kingdom Come Deliverance", "Hollow Knight", "Darkest Dungeon", "Loop Hero"]},'+
-     '{"name": "глубокие","pic": "glubokie",  "games": ["The Vanishing of Ethan Carter", "Night in the Woods", "The Red Strings Club", "The Beginner`s Guide", "Death and Taxes", "LISA: The Painfull"]},'+
+     '{"name": "глубокие","pic": "glubokie",  "games": ["The Vanishing of Ethan Carter", "Night in the Woods", "The Red Strings Club", "Death and Taxes", "LISA: The Painfull"]},'+
      '{"name": "хоррор","pic": "horror", "games": ["At Dead Of Night", "Among the Sleep", "Detention", "Outlast", "The Witch`s House MV", "Summer of 58"]},'+
      '{"name": "экшн игры","pic": "action", "games": ["Death’s door", "Tunic", "Alien Shooter", "Ape Out", "Nobody Saves the World", "Shank"]},'+
      '{"name": "культовые","pic": "kultovie", "games": ["Papers, Please", "Undertale", "The Stanley Parable", "Brothers - A Tale of Two Sons", "Braid", "Harvester"]},'+
@@ -19,6 +19,7 @@
      '{"name": "саундтрек","pic": "soundtrack", "games": ["Furi", "Sayonara Wild Hearts", "Everhood", "Bastion", "198X", "DUSK"]},'+
      '{"name": "квесты","pic": "quest", "games": ["Rusty Lake: Roots", "Creepy Tale 2", "Superliminal", "Edna & Harvey The Breakout", "Forgotten City", "Fran Bow"]},'+
      '{"name": "random","pic": "random"}]';
+
 
      var genresActiveArray = [];
 
