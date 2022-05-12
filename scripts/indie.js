@@ -7,13 +7,13 @@
      '{"name": "экшн игры","pic": "action", "games": ["Death’s door", "Tunic", "Alien Shooter", "Ape Out", "Nobody Saves the World", "Shank"]},'+
      '{"name": "культовые","pic": "kultovie", "games": ["Papers, Please", "Undertale", "The Stanley Parable", "Brothers - A Tale of Two Sons", "Braid", "Harvester"]},'+
      '{"name": "метроидвания","pic": "metroidv", "games": ["Supraland Six Inches Under", "Ender Lilies: Quietus of the Knights", "Guacamelee! (STCE)", "The Messenger", "Axiom Verge", "Rogue Legacy 2"]},'+
-     '{"name": "платформер","pic": "platform", "games": ["BattleBlock Theater", "Little Nightmares 2", "Guns, Gore and Cannoli 2", "Cuphead", "Celeste", "Vector"]},'+
+     '{"name": "платформер","pic": "platform", "games": ["BattleBlock Theater", "Pumpkin Jack", "Guns, Gore and Cannoli 2", "Cuphead", "Celeste", "Vector"]},'+
      '{"name": "роглайк","pic": "roguelike", "games": ["Dead Cells", "Inscryption", "Hades", "Enter the Gungeon", "Slay the Spire", "Binding of Isaac: Repentance"]},'+
      '{"name": "мемы","pic": "meme", "games": ["Pony Island", "The Hex", "Adventures of pepeL", "I Hate this Game", "Helltaker", "Montaro"]},'+
      '{"name": "шутер","pic": "shooter", "games": ["Bright Memory: Infinite", "SUPERHOT", "Terminator: Resistance", "Serious Sam: Siberian Mayhem", "Black Mesa", "Them and Us"]},'+
      '{"name": "интерактивные истории","pic": "interaktiv", "games": ["Her Story", "Tiny Bunny", "Do Not Feed the Monkeys", "Not For Broadcast", "Late Shift", "Who Pressed Mute on Uncle Marcus?"]},'+
      '{"name": "Хайден Гемы","pic": "hiddengem", "games": ["In Sound Mind", "Fearmonium", "The Artful Escape", "Bright Lights of Svetlov", "Sludge Life", "Inertial Drift"]},'+
-     '{"name": "юмор","pic": "jumor", "games": ["Protocol", "Untitled Goose Game", "Sam & Max Save the World", "UnMetal", "Magicka", "Пилигримы"]},'+
+     '{"name": "юмор","pic": "jumor", "games": ["Protocol", "Untitled Goose Game", "Sam & Max Save the World", "UnMetal", "Magicka", "The Henry Stickmin Collection"]},'+
      '{"name": "АА инди","pic": "aaindi", "games": ["Psychonauts", "KENA: Bridge of Spirits", "HITMAN 3", "Hellblade: Senua`s Sacrifice", "Ghostrunner", "A Plague Tale: Innocence"]},'+
      '{"name": "приключения","pic": "prikl", "games": ["Помни...", "A Story About My Uncle", "The Final Station", "Tails of Iron", "Hyper Light Drifter", "Road 96"]},'+
      '{"name": "саундтрек","pic": "soundtrack", "games": ["Furi", "Sayonara Wild Hearts", "Everhood", "Bastion", "BPM: Bullets Per Minute", "DUSK"]},'+
